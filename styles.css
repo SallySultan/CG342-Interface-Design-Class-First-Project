@@ -7,7 +7,7 @@ h1 {
 
 p {
     font-family: 'Kanit', sans-serif;
-    /* change the size */
-    /* change the line hieght */
-    /* change the color*/
+    font-size: 25px;
+    color:#831a2d;
+    font-style: bold;
 }
