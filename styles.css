@@ -2,4 +2,12 @@ h1 {
     font-size: 40px;
     color:#c44f65;
     font-style: italic;
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    /* change the size */
+    /* change the line hieght */
+    /* change the color*/
 }
