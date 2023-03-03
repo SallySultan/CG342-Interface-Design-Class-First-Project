@@ -1,13 +1,113 @@
-h1 {
+header{
+    font-size: 100px;
+    color: aqua;
+    font-style: italic, bold;
+    font-family: 'Dosis', sans-serif;;
+}
+h1{
     font-size: 40px;
-    color:#c44f65;
+    color: lightsalmon;
     font-style: italic;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Dosis', sans-serif;;
+} 
+
+h2{
+    font-size: 40px;
+    color: lightsalmon;
+    font-style: italic;
+    font-family: 'Dosis', sans-serif;;
+}
+h3{
+    font-size: 40px;
+    color: lightsalmon;
+    font-style: italic;
+    font-family: 'Dosis', sans-serif;;
+}
+p{
+    font-size: 20px;
+    color:blue;
+    font-family: 'Dosis', sans-serif;
+    line-height:  27px;
+}
+body{
+    background-color: azure;
+    margin: 0;
 }
 
-p {
-    font-family: 'Kanit', sans-serif;
-    font-size: 25px;
-    color:#831a2d;
-    font-style: bold;
+.button-link {
+    border-style: solid;
+    border-color: crimson;
+    background-color: rgb(228, 255, 148);
+    border-width: 1px;
+    text-decoration: none;
+    color: black;   
+    border-radius: 8px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+}
+.button-alert {
+    border-style: double;
+    border-color: rgb(255, 196, 0);
+    background-color: rgb(81, 238, 255);
+    border-width: 10px;
+    text-decoration: none;
+    color: black;   
+    border-radius: 7px;
+    display: block;
+    width: 203px;
+    text-align: center;
+    margin-top: 20px;
+}
+.button-alarm {
+    border-style: dotted;
+    border-color: rgb(0, 255, 115);
+    background-color: rgb(255, 174, 236);
+    border-width: 10px;
+    text-decoration: none;
+    color: black;   
+    border-radius: 8px;
+    display: block;
+    width: 203px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.top-banner{
+    height: 150px;
+    text-align: center;
+    background-color: rgb(200, 171, 228);
+    padding-top: 100px;
+
+}
+
+.main-content{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+footer{
+    height: 100px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+nav {
+    padding: 20px;
+
+}
+.nav-links {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 200px;
+}
+.nav-links li a{
+padding-left:0;
+padding-right: 0;
+}
+.nav-links li {
+    display: inline;
 }
