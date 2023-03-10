@@ -1,6 +1,6 @@
 header{
     font-size: 100px;
-    color:  rgb(81, 2, 155);
+    color:  rgb(255, 255, 255);
     font-style: italic, bold;
     font-family: 'Dosis', sans-serif;;
 }
@@ -40,8 +40,8 @@ body{
 }
 
 .button-link {
-    border-style: solid;
-    border-color: rgb(255, 0, 76);;
+    border-style: double;
+    border-color: rgb(79, 85, 160);;
     background-color: rgb(189, 216, 219);
     border-width: 1px;
     text-decoration: none;
@@ -54,7 +54,7 @@ body{
 }
 .button-alert {
     border-style: double;
-    border-color: rgb(255, 0, 76);
+    border-color: rgb(79, 85, 160);
     background-color:  rgb(189, 216, 219);
     border-width: 10px;
     text-decoration: none;
@@ -66,8 +66,8 @@ body{
     margin-top: 20px;
 }
 .button-alarm {
-    border-style: dotted;
-    border-color: rgb(255, 0, 76);;
+    border-style: double;
+    border-color:rgb(79, 85, 160);;
     background-color:  rgb(189, 216, 219);
     border-width: 10px;
     text-decoration: none;
@@ -80,7 +80,7 @@ body{
 }
 
 .top-banner {
-    height: 240px;
+    height: 400px;
     text-align: center;
     padding-top: 110px;
     background-image: url("https://otakudome.com/wp-content/uploads/2014/10/url26.jpg");
