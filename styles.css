@@ -1,43 +1,43 @@
 header{
     font-size: 100px;
-    color: aqua;
+    color:  rgb(81, 2, 155);
     font-style: italic, bold;
     font-family: 'Dosis', sans-serif;;
 }
 h1{
     font-size: 40px;
-    color: lightsalmon;
+    color: rgb(81, 2, 155);
     font-style: italic;
     font-family: 'Dosis', sans-serif;;
 } 
 
 h2{
     font-size: 40px;
-    color: lightsalmon;
+    color:  rgb(81, 2, 155);
     font-style: italic;
     font-family: 'Dosis', sans-serif;;
 }
 h3{
     font-size: 40px;
-    color: lightsalmon;
+    color: rgb(81, 2, 155);
     font-style: italic;
     font-family: 'Dosis', sans-serif;;
 }
 p{
     font-size: 20px;
-    color:blue;
+    color:rgb(133, 133, 133);
     font-family: 'Dosis', sans-serif;
     line-height:  27px;
 }
 body{
-    background-color: azure;
+    background-color: rgb(221, 236, 236);
     margin: 0;
 }
 
 .button-link {
     border-style: solid;
-    border-color: crimson;
-    background-color: rgb(228, 255, 148);
+    border-color: rgb(255, 0, 76);;
+    background-color: rgb(189, 216, 219);
     border-width: 1px;
     text-decoration: none;
     color: black;   
@@ -49,8 +49,8 @@ body{
 }
 .button-alert {
     border-style: double;
-    border-color: rgb(255, 196, 0);
-    background-color: rgb(81, 238, 255);
+    border-color: rgb(255, 0, 76);
+    background-color:  rgb(189, 216, 219);
     border-width: 10px;
     text-decoration: none;
     color: black;   
@@ -62,8 +62,8 @@ body{
 }
 .button-alarm {
     border-style: dotted;
-    border-color: rgb(0, 255, 115);
-    background-color: rgb(255, 174, 236);
+    border-color: rgb(255, 0, 76);;
+    background-color:  rgb(189, 216, 219);
     border-width: 10px;
     text-decoration: none;
     color: black;   
@@ -78,6 +78,12 @@ body{
     height: 150px;
     text-align: center;
     background-color: rgb(200, 171, 228);
+    background-image: url("https://th.bing.com/th/id/R.95c61cacf3d7d77a948d64f1345a24cc?rik=VTVdhzDg%2b7V5qw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fRMdbmli.jpg&ehk=p103BSAhaB54jfLWjfu66x1S%2b7QEMljRGBwlsG62t6A%3d&risl=&pid=ImgRaw&r=0");
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    background-size: cover;
+    background-attachment: fixed;
     padding-top: 100px;
 
 }
