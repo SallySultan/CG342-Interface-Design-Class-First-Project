@@ -30,8 +30,13 @@ p{
     line-height:  27px;
 }
 body{
-    background-color: rgb(221, 236, 236);
+    background-color: rgb(177, 177, 177);
     margin: 0;
+}
+
+.article-image {
+    border: 1px solid #000
+    width: 100%
 }
 
 .button-link {
@@ -74,19 +79,21 @@ body{
     margin-top: 20px;
 }
 
-.top-banner{
-    height: 150px;
+.top-banner {
+    height: 240px;
     text-align: center;
-    background-color: rgb(200, 171, 228);
-    background-image: url("https://th.bing.com/th/id/R.95c61cacf3d7d77a948d64f1345a24cc?rik=VTVdhzDg%2b7V5qw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fRMdbmli.jpg&ehk=p103BSAhaB54jfLWjfu66x1S%2b7QEMljRGBwlsG62t6A%3d&risl=&pid=ImgRaw&r=0");
+    padding-top: 110px;
+    background-image: url("https://otakudome.com/wp-content/uploads/2014/10/url26.jpg");
     margin: 0 auto;
+    border-width: 300px;
+    padding: 10px;
+    border-radius: 20px;
     display: block;
     margin-top: 10px;
-    background-size: cover;
+    Background-size: cover;
     background-attachment: fixed;
-    padding-top: 100px;
-
 }
+
 
 .main-content{
     max-width: 800px;
